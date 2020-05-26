@@ -1,0 +1,630 @@
+@import url(hover.css);
+
+body:not(.header-transparent) .header-phone {
+  display: none;
+}
+
+body:not(.header-transparent) img.img-logo {
+  max-width: 150px !important;
+  margin-top: -5px;
+  zoom: 100% !important;
+  transform: scale(1) !important;
+  padding-bottom: 0 !important;
+  margin-right: 50px;
+}
+
+body:not(.header-transparent) .header-search,body:not(.header-transparent) #contact-us-now-block,body:not(.header-transparent) .header-bottom {
+  display: none;
+}
+
+body:not(.header-transparent) ul.nav-primary {
+  float: left;
+}
+
+body:not(.header-transparent) .content-title-inner {
+  padding: 25px 0;
+}
+
+body.header-transparent.front {
+  background: #fff;
+  font-family: "Montserrat","Gotham","Open Sans",Helvetica,sans-serif;
+}
+
+body.header-transparent.front .sellpage .main {
+  padding-top: 90px;
+}
+
+body.header-transparent.front .header-logo.hidden-sm-down img {
+  display: none;
+}
+
+body.header-transparent.front .header-logo.hidden-sm-down:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 150px;
+  height: 75px;
+  background: url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/exp-logo.png) top center no-repeat;
+  background-size: contain;
+}
+
+body.header-transparent.front .header-logo.hidden-md-up {
+  display: none;
+}
+
+body.header-transparent.front .header-phone {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 5px;
+  display: inline-block;
+  float: left;
+  padding-right: 15px;
+}
+
+body.header-transparent.front ul.nav-pills {
+  float: right;
+}
+
+body.header-transparent.front .cover.cover-center {
+  height: 47vw;
+}
+
+body.header-transparent.front .cover.cover-center .cover-image {
+  opacity: 1;
+  background: url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/hero.jpg) top center no-repeat !important;
+  background-size: cover !important;
+  opacity: 1 !important;
+}
+
+body.header-transparent.front .cover.cover-center .cover-title {
+  top: auto;
+  bottom: -90px;
+}
+
+body.header-transparent.front .main-inner .content>.container,body.header-transparent.front #horizontal-search>.container,body.header-transparent.front .cover-title>.container {
+  max-width: 1250px;
+}
+
+body.header-transparent.front .main-inner .content>.container button#more-options,body.header-transparent.front .main-inner .content>.container #qs-submit,body.header-transparent.front #horizontal-search>.container button#more-options,body.header-transparent.front #horizontal-search>.container #qs-submit,body.header-transparent.front .cover-title>.container button#more-options,body.header-transparent.front .cover-title>.container #qs-submit {
+  background: #665d54;
+  color: #fff;
+}
+
+body.header-transparent.front #horizontal-search {
+  display: none !important;
+}
+
+body.header-transparent.front .information-bar {
+  background: #665d54;
+  color: #fff;
+}
+
+body.header-transparent.front .information-bar h5 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+body.header-transparent.front .main>.main-inner>.content>.container {
+  max-width: none !important;
+  padding: 0;
+}
+
+body.header-transparent.front .main>.main-inner>.content>.container>section#categories {
+  padding-top: 0 !important;
+}
+
+body.header-transparent.front .main>.main-inner>.content>.container .row {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.header-transparent.front .cover.cover-center.agent .cover-title {
+  top: 75%;
+}
+
+body.header-transparent.front .cover.cover-center.agent .cover-title .cover-title-inner {
+  display: none;
+}
+
+body.header-transparent.front .kv-custom h2 {
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 2px;
+  position: relative;
+  margin-bottom: 75px;
+}
+
+body.header-transparent.front .kv-custom h2:after {
+  width: 75px;
+  content: '';
+  height: 1px;
+  border-top: 1px solid #333;
+  position: absolute;
+  bottom: -42px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+body.header-transparent.front .kv-custom p {
+  font-size: 17px;
+  line-height: 31px;
+}
+
+body.header-transparent.front .kv-custom a.styled-link {
+  position: relative;
+  display: inline-block;
+  padding: 25px 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #996629;
+}
+
+body.header-transparent.front .kv-custom a.styled-link:before {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 1px;
+  left: -75px;
+  top: 50%;
+  border-top: 1px solid #996629;
+}
+
+body.header-transparent.front .grid figure figcaption span {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  display: inline-block;
+  transform: translateX(-32%);
+}
+
+body.header-transparent.front .grid figure figcaption span:before {
+  position: absolute;
+  content: '';
+  width: 35px;
+  height: 1px;
+  left: -55px;
+  top: 50%;
+  border-top: 1px solid #fff;
+}
+
+body.header-transparent.front figure.effect-apollo:hover figcaption span {
+  display: none;
+}
+
+body.header-transparent.front #about_derrick {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/derrick-ruiz-cutout.png) bottom left no-repeat;
+  background-size: contain;
+}
+
+body.header-transparent.front #sell_your_building {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-top: 100px solid #665d54;
+  position: relative;
+}
+
+body.header-transparent.front #sell_your_building .building-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: -45px;
+}
+
+body.header-transparent.front #sell_your_building .building-image img {
+  height: 100%;
+}
+
+body.header-transparent.front #selling_property {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #685f56 url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/selling-property-bg.jpg) left no-repeat;
+  background-size: contain;
+  color: #fff;
+}
+
+body.header-transparent.front #selling_property h2:after {
+  border-top: 1px solid #fff;
+}
+
+body.header-transparent.front #selling_property a.styled-link {
+  color: #fff;
+}
+
+body.header-transparent.front #selling_property a.styled-link:before {
+  border-top: 1px solid #fff;
+}
+
+body.header-transparent.front #wealth_building {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/wealth-building-bg.jpg) right no-repeat;
+  background-size: contain;
+}
+
+body.header-transparent.front #wealth_building p.highlight {
+  color: #996629;
+  font-weight: 600;
+}
+
+body.header-transparent.front #wealth_building .image-cutout img {
+  max-height: 600px;
+  margin: -75px 0 -90px 0;
+  width: auto;
+}
+
+body.header-transparent.front #selling_considerations {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/selling-considerations-bg.jpg) 34% no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+body.header-transparent.front #selling_considerations h2:after {
+  border-top: 1px solid #fff;
+}
+
+body.header-transparent.front #selling_considerations a.styled-link {
+  color: #fff;
+}
+
+body.header-transparent.front #selling_considerations a.styled-link:before {
+  border-top: 1px solid #fff;
+}
+
+body.header-transparent.front .social-media-holder {
+  margin-bottom: 30px !important;
+  margin-top: 15px !important;
+}
+
+body.header-transparent.front .social-media-holder .col-sm-3 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+body.header-transparent.front .social-media-holder h4 {
+  background: #665D54;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+}
+
+body.header-transparent.front .social-media-holder .widget-holder {
+  max-height: 500px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body.header-transparent.front .social-media-holder .stay-social {
+  text-align: center;
+  padding: 76px 0;
+}
+
+body.header-transparent.front .social-media-holder .stay-social h2 {
+  font-family: "Montserrat","Gotham","Open Sans",Helvetica,sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+body.header-transparent.front .social-media-holder .stay-social h5 {
+  color: #996629;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+body.header-transparent.front .social-media-holder .stay-social .custom-social a {
+  color: #996629;
+}
+
+body.header-transparent.front .social-media-holder .stay-social .custom-social i {
+  font-size: 1.5em;
+  border: 1.5px solid #996629;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+}
+
+body.header-transparent.front .social-media-holder a.cloud-agent-book {
+  text-align: center;
+  display: block;
+}
+
+body.header-transparent.front .social-media-holder a.cloud-agent-book img {
+  max-width: 100%;
+  height: auto;
+}
+
+#custom_footer {
+  background: #efe9e4;
+  padding: 35px 0;
+}
+
+#custom_footer img {
+  max-width: 95%;
+  height: auto;
+}
+
+#custom_footer .col-sm-6 {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+#custom_footer .social-media .nav-link {
+  padding: 5px;
+}
+
+#custom_footer .social-media .nav-link .fa {
+  border: 1.5px solid #996629 !important;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+}
+
+#custom_footer a {
+  color: #996629;
+}
+
+#custom_footer .exp-address {
+  padding-top: 10px;
+  text-align: right;
+  clear: both;
+}
+
+.footer-wrapper .footer-inner {
+  position: relative;
+}
+
+.footer-wrapper .footer-inner:before {
+  content: '';
+  width: 275px;
+  height: 480px;
+  background: url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/derrick-footer-cutout.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: -7vw;
+  bottom: 75px;
+}
+
+.footer-wrapper .footer-top {
+  background-color: #665d54 !important;
+}
+
+.footer-wrapper .footer-top-left {
+  display: none;
+}
+
+.footer-wrapper .footer-top-right {
+  width: 80%;
+}
+
+.footer-wrapper .footer-top-right p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1250px) {
+  body.header-transparent.front #about_derrick {
+    background-size: 31%;
+  }
+}
+
+@media (max-width: 1199px) {
+  body:not(.header-transparent) ul.nav-primary {
+    padding-left: 50px;
+  }
+
+  .footer-wrapper .footer-top {
+    padding-bottom: 10px;
+  }
+
+  .footer-wrapper .footer-top-right {
+    width: 72%;
+  }
+
+  .footer-wrapper .footer-inner:before {
+    content: '';
+    width: 275px;
+    height: 480px;
+    background: url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/derrick-footer-cutout.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: -40px;
+    bottom: 75px;
+  }
+
+  body.header-transparent.front .cover.cover-center {
+    height: 50vw;
+    min-height: 300px;
+  }
+
+  body.header-transparent.front #horizontal-search {
+    padding-bottom: 2rem !important;
+  }
+
+  body.header-transparent.front #about_derrick,body.header-transparent.front #sell_your_building {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  body.header-transparent.front figure.effect-apollo h2 {
+    font-size: 30px !important;
+    margin: 0;
+  }
+
+  body.header-transparent.front .grid figure figcaption span {
+    font-size: 14px;
+  }
+
+  body.header-transparent.front #wealth_building {
+    background-size: cover !important;
+  }
+}
+
+@media (max-width: 991px) {
+  body.inner ul.nav-primary {
+    float: none;
+  }
+
+  body.inner .custom-header-nav {
+    display: none;
+  }
+
+  body.inner .header-bottom {
+    display: block;
+  }
+
+  body.header-transparent.front .cover.cover-center {
+    height: 65vw;
+  }
+
+  body.header-transparent.front .cover.cover-center .cover-image {
+    background: url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/mobile-hero.jpg) left no-repeat !important;
+    background-size: cover !important;
+  }
+
+  body.header-transparent.front .cover-title:before {
+    height: 130px;
+    bottom: 22vw;
+  }
+
+  body.header-transparent.front #horizontal-search {
+    padding-bottom: 1rem !important;
+  }
+
+  body.header-transparent.front #custom_header_logo img {
+    max-height: 100px;
+  }
+
+  body.header-transparent.front #selling_property {
+    background-size: cover;
+  }
+
+  body.header-transparent.front .footer-wrapper .footer-top-right {
+    width: 100%;
+  }
+
+  body.header-transparent.front .footer-wrapper .footer-inner:before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  .grid figure {
+    margin: 0 auto;
+    float: left;
+  }
+}
+
+@media (max-width: 767px) {
+  body.header-transparent.front #custom_header_logo {
+    top: 25%;
+  }
+
+  body.header-transparent.front #custom_header_logo img {
+    max-width: 75%;
+  }
+
+  body.header-transparent.front .navbar-toggler {
+    top: -25px;
+  }
+
+  body.header-transparent.front .cover.cover-center {
+    margin-bottom: 0;
+  }
+
+  body.header-transparent.front .cover-title {
+    transform: none !important;
+    bottom: -25px !important;
+  }
+
+  body.header-transparent.front .cover-title:before {
+    content: '';
+    position: absolute;
+    top: -18vw;
+    width: 100%;
+    height: 100px;
+    background: url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/exp-logo-black.png) 55% no-repeat;
+    background-size: contain;
+  }
+
+  body.header-transparent.front .cover-title:after {
+    content: '';
+    background: url(https://kfe-externalmedia.kunversion.com/kv-custom/derrickruiz.exprealty.com/images/derrick-full-cutout.png);
+    background-size: cover;
+    position: absolute;
+    width: 17vw;
+    height: 47vw;
+    top: -32vw;
+    left: 10vw;
+  }
+
+  body.header-transparent.front .information-bar h5 {
+    font-size: 4.5vw;
+  }
+
+  body.header-transparent.front .kv-custom h2 {
+    font-size: 7vw;
+  }
+
+  body.header-transparent.front #sell_your_building {
+    border-top: none !important;
+  }
+
+  body.header-transparent.front figure.effect-apollo h2 {
+    font-size: 6.5vw !important;
+  }
+
+  body.header-transparent.front #horizontal-search {
+    position: absolute;
+    top: 90%;
+    margin: 0 !important;
+    padding: 0 !important;
+    left: 30px;
+    right: 30px;
+    margin-top: -75px !important;
+  }
+
+  body.header-transparent.front #about_derrick,body.header-transparent.front #sell_your_building {
+    background: none;
+  }
+
+  body.header-transparent.front #selling_considerations {
+    padding: 7vw 0;
+  }
+
+  body.header-transparent.front .social-media-holder a.cloud-agent-book {
+    padding-bottom: 55px;
+  }
+}
+
+@media (max-width: 543px) {
+  body.header-transparent.front .cover.cover-center {
+    min-height: 250px;
+  }
+
+  body.header-transparent.front .cover.cover-center .cover-title:before {
+    height: 65px;
+    bottom: 130px;
+  }
+
+  body.header-transparent.front .kv-custom a.styled-link {
+    max-width: 50%;
+  }
+}
+/* MODIFIED STYLES */
+.header-inner .header-top img.img-logo {
+  max-width: 108px !important;
+}
